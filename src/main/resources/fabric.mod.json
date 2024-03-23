@@ -12,10 +12,13 @@
   },
   "license": "MIT",
   "icon": "assets/immortaltrophies/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
+    "main": [
+      "com.diskree.immortaltrophies.ImmortalTrophies"
+    ],
     "client": [
-      "com.diskree.immortaltrophies.client.ImmortalTrophies"
+      "com.diskree.immortaltrophies.client.ImmortalTrophiesClient"
     ]
   },
   "mixins": [

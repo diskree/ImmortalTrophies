@@ -1,2 +1,4 @@
 accessWidener v2 named
 
+accessible field net/minecraft/command/argument/ItemStackArgument nbt Lnet/minecraft/nbt/NbtCompound;
+accessible field net/minecraft/command/argument/ItemStackArgument item Lnet/minecraft/registry/entry/RegistryEntry;
